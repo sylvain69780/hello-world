@@ -1,9 +1,14 @@
 # hello-world
 Début de Sylvain sur GitHub
 
-Et j'ajoute des lignes
-
-Et là sur mon PC
-Et là sur mon PC
+<ul>
+{% for member in site.data.my_shaders %}
+  <li>
+    <a href="https://github.com/{{ my_shaders.id }}">
+      {{ my_shaders.title }}
+    </a>
+  </li>
+{% endfor %}
+</ul>
 
 [Un lien](test.html)
